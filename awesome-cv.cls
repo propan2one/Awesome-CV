@@ -723,8 +723,8 @@
 % Usage: \makeletterclosing
 \newcommand*{\makeletterclosing}{%
   \vspace{3.2mm}
-  \lettertextstyle{Si vous êtes arrivé jusque-là, c'est que ma lettre de motivation n'était pas si mal. Mais je suis encore meilleur en entretien !} \\\\
-  \includegraphics[scale=0.15]{signature.jpg}
+  \lettertextstyle{Je vous prie d'agréer, Madame, Monsieur, mes respectueuses et sincères salutations.} \\\\
+  \includegraphics[scale=0.10]{signature.jpg}
   %\letternamestyle{\@firstname\ \@lastname}
   \ifthenelse{\isundefined{\@letterenclosure}}
     {\\}
