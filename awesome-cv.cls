@@ -723,12 +723,13 @@
 % Usage: \makeletterclosing
 \newcommand*{\makeletterclosing}{%
   \vspace{3.2mm}
-  \lettertextstyle{Je vous prie d'agréer, Madame, Monsieur, mes respectueuses et sincères salutations.} \\\\
+  %\lettertextstyle{Je vous prie d'agréer, Madame, Monsieur, mes respectueuses et sincères salutations.} \\\\ %fr
+  \lettertextstyle{Sincerely,} \\\\ %fr
   \includegraphics[scale=0.15]{signature.jpg}
-  %\letternamestyle{\@firstname\ \@lastname}
+  \letternamestyle{\@Jean\ \@Delmotte}
   \ifthenelse{\isundefined{\@letterenclosure}}
     {\\}
-    {%
+    {
       \\\\\\
       \letterenclosurestyle{\@letterenclname: \@letterenclosure} \\
     }
