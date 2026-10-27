@@ -123,7 +123,7 @@
 \definecolor{white}{HTML}{FFFFFF}
 \definecolor{black}{HTML}{000000}
 \definecolor{darkgray}{HTML}{333333}
-\definecolor{gray}{HTML}{5D5D5D}
+\definecolor{gray}{HTML}{000000}
 \definecolor{lightgray}{HTML}{999999}
 % Basic colors
 \definecolor{green}{HTML}{C2E15F}
@@ -725,7 +725,7 @@
   \vspace{3.2mm}
   %\lettertextstyle{Je vous prie d'agréer, Madame, Monsieur, mes respectueuses et sincères salutations.} \\\\ %fr
   \lettertextstyle{Sincerely,} \\\\ %fr
-  \includegraphics[scale=0.15]{signature.jpg}
+  \includegraphics[scale=0.11]{signature.jpg}
   \letternamestyle{\@Jean\ \@Delmotte}
   \ifthenelse{\isundefined{\@letterenclosure}}
     {\\}
